@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>Hay-Es Grill (Haydee's) | Filipino Restaurant in San Jose del Monte</title>
+  <meta name="description"
+    content="Hay-Es Grill (Haydee's) serves authentic Filipino cuisine in San Jose del Monte, Bulacan. Famous for kare-kare, steaks, and grilled dishes. Located at National Road, Gaya-Gaya. Call +63 961 837 7179." />
+  <meta name="keywords"
+    content="Filipino restaurant San Jose del Monte, Hay-Es Grill, Haydee's Kitchenette, kare-kare Bulacan, grilled food San Jose del Monte, restaurant near me" />
+  <link rel="canonical" href="https://hayesgrillhaydees.vikaph.com/" />
+
+  <!-- Open Graph (Facebook, Messenger, Viber shares) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Hay-Es Grill (Haydee's) | Filipino Restaurant in San Jose del Monte" />
+  <meta property="og:description" content="Hay-Es Grill (Haydee's) serves authentic Filipino cuisine in San Jose del Monte, Bulacan. Famous for kare-kare, steaks, and grilled dishes." />
+  <meta property="og:image" content="https://hayesgrillhaydees.vikaph.com/images/hero.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:url" content="https://hayesgrillhaydees.vikaph.com/" />
+  <meta property="og:locale" content="en_PH" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Hay-Es Grill (Haydee's) | Filipino Restaurant in San Jose del Monte" />
+  <meta name="twitter:description" content="Hay-Es Grill (Haydee's) serves authentic Filipino cuisine in San Jose del Monte, Bulacan. Famous for kare-kare, steaks, and grilled dishes." />
+  <meta name="twitter:image" content="https://hayesgrillhaydees.vikaph.com/images/hero.jpg" />
+
+  <!-- Geo tags (helps local SEO) -->
+  <meta name="geo.region" content="PH-BUL" />
+  <meta name="geo.placename" content="San Jose del Monte" />
+  <meta name="geo.position" content="14.7972181;121.0475353" />
+  <meta name="ICBM" content="14.7972181, 121.0475353" />
+
+  <!-- Tailwind CSS v3 -->
+  <script src="https://assets.vikaph.com/tailwindcss-3.4.17.js"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              primary:   '#E65100',
+              secondary: '#FF8F00',
+              accent:    '#FFD54F',
+              dark:      '#1A1A1A',
+              light:     '#FFF8E1',
+              muted:     '#757575',
+            }
+          },
+          fontFamily: {
+            heading: ['Playfair Display', 'serif'],
+            body:    ['Inter', 'sans-serif'],
+            accent:  ['Dancing Script', 'cursive'],
+          },
+          borderRadius: {
+            card:   '1rem',
+            btn:    '0.5rem',
+          },
+          boxShadow: {
+            card:   '0 4px 24px rgba(230, 81, 0, 0.1)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Brand CSS variables -->
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    html, body {
+      max-width: 100vw;
+      overflow-x: hidden;
+      margin: 0;
+      padding: 0;
+    }
+    :root {
+      /* Colors */
+      --color-primary:   #E65100;
+      --color-secondary: #FF8F00;
+      --color-accent:    #FFD54F;
+      --color-dark:      #1A1A1A;
+      --color-light:     #FFF8E1;
+      --color-muted:     #757575;
+
+      /* Typography */
+      --font-heading: 'Playfair Display', serif;
+      --font-body:    'Inter', sans-serif;
+      --font-accent:  'Dancing Script', cursive;
+
+      /* Spacing / Shape */
+      --radius-card: 1rem;
+      --radius-btn:  0.5rem;
+      --shadow-card: 0 4px 24px rgba(230, 81, 0, 0.1);
+    }
+
+    body                    { font-family: var(--font-body); }
+    h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
+  </style>
+</head>
+<body class="bg-[var(--color-light)] text-[var(--color-dark)] overflow-x-hidden">
+
+  <!-- Preview Banner -->
+  <div id="preview-banner" class="fixed top-0 inset-x-0 bg-[var(--color-dark)] text-white py-2 px-2 sm:px-4 text-center z-50 text-sm flex items-center justify-between overflow-x-hidden">
+    <div class="flex-1 min-w-0">
+      <span class="mr-1 sm:mr-2">🚧 Preview Website</span>
+      <a href="https://www.vikaph.com/" target="_blank" class="text-[var(--color-secondary)] hover:text-[var(--color-primary)] font-semibold underline truncate">
+        Get your website at vikaph.com
+      </a>
+    </div>
+    <button id="close-banner" class="text-white/70 hover:text-white ml-2 sm:ml-4 text-xl leading-none flex-shrink-0">&times;</button>
+  </div>
+
+  <!-- Navigation -->
+  <header id="main-nav" class="fixed top-8 inset-x-0 z-40 bg-white/90 backdrop-blur-sm border-b border-[var(--color-muted)]/20 shadow-sm transition-all duration-300 overflow-x-hidden">
+    <div class="max-w-6xl mx-auto px-2 sm:px-4 py-4 flex items-center justify-between">
+      <div class="font-heading text-lg sm:text-xl font-bold text-[var(--color-primary)] min-w-0">
+        Hay-Es Grill (Haydee's)
+      </div>
+      <nav class="hidden md:flex items-center gap-4 sm:gap-8">
+        <a href="#about" class="text-sm font-medium text-[var(--color-dark)] hover:text-[var(--color-primary)] transition-colors">About</a>
+        <a href="#menu" class="text-sm font-medium text-[var(--color-dark)] hover:text-[var(--color-primary)] transition-colors">Menu</a>
+        <a href="#gallery" class="text-sm font-medium text-[var(--color-dark)] hover:text-[var(--color-primary)] transition-colors">Gallery</a>
+        <a href="#reviews" class="text-sm font-medium text-[var(--color-dark)] hover:text-[var(--color-primary)] transition-colors">Reviews</a>
+        <a href="#contact" class="text-sm font-medium text-[var(--color-dark)] hover:text-[var(--color-primary)] transition-colors">Contact</a>
+      </nav>
+      <a href="tel:+639618377179" class="bg-[var(--color-primary)] text-white px-3 sm:px-6 py-3 rounded-[var(--radius-btn)] font-semibold hover:bg-[var(--color-secondary)] transition-colors text-sm flex-shrink-0 whitespace-nowrap">
+        Call Now
+      </a>
+    </div>
+  </header>
+
+  <main class="overflow-x-hidden">
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen flex items-end md:items-center justify-center overflow-hidden pt-16">
+      <!-- Layer 0: Background image -->
+      <img
+        src="images/hero.jpg"
+        alt="Hay-Es Grill (Haydee's) — Filipino restaurant in San Jose del Monte, Bulacan"
+        class="absolute inset-0 w-full h-full object-cover object-center z-0 max-w-full"
+        fetchpriority="high"
+        width="1920"
+        height="1080"
+      />
+
+      <!-- Layer 1: Gradient overlay (bottom-heavy) -->
+      <div class="absolute inset-0 z-10
+                  bg-gradient-to-top
+                  from-[var(--color-dark)]/85
+                  via-[var(--color-dark)]/60
+                  via-[55%]
+                  to-transparent">
+      </div>
+
+      <!-- Layer 1b: Top edge bleed for nav contrast -->
+      <div class="absolute inset-x-0 top-0 h-40 z-10
+                  bg-gradient-to-bottom from-[var(--color-dark)]/50 to-transparent">
+      </div>
+
+      <!-- Layer 2: Dark overlay behind text for readability -->
+      <div class="absolute inset-0 z-15 bg-black/60"></div>
+
+      <!-- Layer 3: Text content -->
+      <div class="relative z-20 text-center text-white
+                  max-w-3xl mx-auto px-6
+                  pt-16 pb-20 md:pb-0">
+        <p class="font-body text-sm uppercase tracking-widest text-white/70 mb-4">
+          Filipino Restaurant · San Jose del Monte, Bulacan
+        </p>
+        <h1 class="font-heading text-5xl md:text-7xl font-bold leading-tight mb-4">
+          Authentic Filipino Grill in San Jose del Monte
+        </h1>
+        <p class="font-body text-lg text-white/80 mb-2">
+          National Road, Gaya-Gaya, San Jose del Monte City, Bulacan
+        </p>
+        <p class="font-body text-sm text-white/60 mb-8">
+          ★ 4.2 · 170 Google Reviews
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <!-- Primary CTA -->
+          <a href="tel:+639618377179"
+             class="bg-[var(--color-primary)] text-white px-8 py-4 rounded-[var(--radius-btn)] font-semibold hover:bg-[var(--color-secondary)] transition-colors text-lg">
+            Call for Orders
+          </a>
+          <!-- Secondary CTA -->
+          <a href="#menu"
+             class="border-2 border-white/70 text-white px-8 py-4 rounded-[var(--radius-btn)]
+                    font-heading font-semibold
+                    hover:bg-white hover:text-[var(--color-dark)] transition-colors">
+            View Menu ↓
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-[var(--color-light)] py-16 md:py-24 px-4">
+      <div class="max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div>
+            <img
+              src="images/about.jpg"
+              alt="Interior of Hay-Es Grill (Haydee's) restaurant in San Jose del Monte"
+              class="rounded-[var(--radius-card)] object-cover w-full h-80 md:h-full shadow-[var(--shadow-card)]"
+              width="800"
+              height="600"
+              loading="lazy"
+            />
+          </div>
+          <div>
+            <h2 class="font-heading text-3xl md:text-4xl font-bold text-[var(--color-dark)] mb-6">
+              About Hay-Es Grill (Haydee's)
+            </h2>
+            <p class="font-body text-base text-[var(--color-muted)] leading-relaxed mb-4">
+              Hay-Es Grill, also known as Haydee's Kitchenette, is a beloved Filipino restaurant serving the San Jose del Monte community. Located along National Road in Gaya-Gaya, we offer a warm and welcoming atmosphere where families and friends can enjoy authentic Filipino cuisine.
+            </p>
+            <p class="font-body text-base text-[var(--color-muted)] leading-relaxed mb-6">
+              Our kitchen specializes in traditional Filipino dishes, with our famous kare-kare, succulent steaks, and fresh grilled fish being customer favorites. The friendly staff works hard to ensure every guest feels at home, while our cool atmosphere makes every dining experience memorable.
+            </p>
+            <div class="flex gap-8 mt-6">
+              <div class="text-center">
+                <div class="font-heading text-3xl font-bold text-[var(--color-primary)]">4.2★</div>
+                <div class="font-body text-sm text-[var(--color-muted)]">Google Rating</div>
+              </div>
+              <div class="text-center">
+                <div class="font-heading text-3xl font-bold text-[var(--color-primary)]">170+</div>
+                <div class="font-body text-sm text-[var(--color-muted)]">Reviews</div>
+              </div>
+              <div class="text-center">
+                <div class="font-heading text-3xl font-bold text-[var(--color-primary)]">Filipino</div>
+                <div class="font-body text-sm text-[var(--color-muted)]">Cuisine</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="bg-[var(--color-dark)] py-16 md:py-24 px-4">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-12">
+          <h2 class="font-heading text-3xl md:text-4xl font-bold text-white mb-4">
+            Our Menu
+          </h2>
+          <p class="font-body text-lg text-white/70">
+            Authentic Filipino dishes prepared with love
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Menu Item 1 -->
+          <div class="bg-white/10 backdrop-blur-sm rounded-[var(--radius-card)] p-5">
+            <h3 class="font-heading font-semibold text-white text-xl mb-2">Kare-Kare</h3>
+            <p class="font-body text-sm text-white/70 mt-1">Traditional Filipino oxtail stew with peanut sauce and vegetables</p>
+            <p class="font-heading font-bold text-[var(--color-accent)] mt-3">[FILL IN PRICE]</p>
+          </div>
+
+          <!-- Menu Item 2 -->
+          <div class="bg-white/10 backdrop-blur-sm rounded-[var(--radius-card)] p-5">
+            <h3 class="font-heading font-semibold text-white text-xl mb-2">Steaks</h3>
+            <p class="font-body text-sm text-white/70 mt-1">Tender grilled steaks cooked to perfection</p>
+            <p class="font-heading font-bold text-[var(--color-accent)] mt-3">[FILL IN PRICE]</p>
+          </div>
+
+          <!-- Menu Item 3 -->
+          <div class="bg-white/10 backdrop-blur-sm rounded-[var(--radius-card)] p-5">
+            <h3 class="font-heading font-semibold text-white text-xl mb-2">Grilled Fish</h3>
+            <p class="font-body text-sm text-white/70 mt-1">Fresh catch grilled with local spices</p>
+            <p class="font-heading font-bold text-[var(--color-accent)] mt-3">[FILL IN PRICE]</p>
+          </div>
+
+          <!-- Menu Item 4 -->
+          <div class="bg-white/10 backdrop-blur-sm rounded-[var(--radius-card)] p-5">
+            <h3 class="font-heading font-semibold text-white text-xl mb-2">Pork Steak</h3>
+            <p class="font-body text-sm text-white/70 mt-1">Savory pork steak with soy and calamansi</p>
+            <p class="font-heading font-bold text-[var(--color-accent)] mt-3">[FILL IN PRICE]</p>
+          </div>
+
+          <!-- Menu Item 5 -->
+          <div class="bg-white/10 backdrop-blur-sm rounded-[var(--radius-card)] p-5">
+            <h3 class="font-heading font-semibold text-white text-xl mb-2">Steak Burger</h3>
+            <p class="font-body text-sm text-white/70 mt-1">Juicy burger with steak-style patty</p>
+            <p class="font-heading font-bold text-[var(--color-accent)] mt-3">[FILL IN PRICE]</p>
+          </div>
+
+          <!-- Menu Item 6 -->
+          <div class="bg-white/10 backdrop-blur-sm rounded-[var(--radius-card)] p-5">
+            <h3 class="font-heading font-semibold text-white text-xl mb-2">Pork Burger</h3>
+            <p class="font-body text-sm text-white/70 mt-1">Flavorful pork burger with fresh toppings</p>
+            <p class="font-heading font-bold text-[var(--color-accent)] mt-3">[FILL IN PRICE]</p>
+          </div>
+        </div>
+
+        <div class="text-center mt-8">
+          <a href="tel:+639618377179" class="border border-white text-white px-6 py-3 rounded-[var(--radius-btn)] hover:bg-white hover:text-[var(--color-dark)] transition-colors">
+            Call for Full Menu
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="bg-[var(--color-light)] py-16 md:py-24 px-4">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-12">
+          <h2 class="font-heading text-3xl md:text-4xl font-bold text-[var(--color-dark)] mb-4">
+            Photo Gallery
+          </h2>
+          <p class="font-body text-lg text-[var(--color-muted)]">
+            A glimpse of our restaurant and dishes
+          </p>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+          <div class="break-inside-avoid mb-3 rounded-[var(--radius-card)] overflow-hidden cursor-pointer group relative">
+            <img
+              src="images/gallery/01.jpg"
+              alt="Delicious Filipino dish at Hay-Es Grill (Haydee's)"
+              class="w-full object-cover transition-transform duration-300 group-hover:scale-105"
+              width="400"
+              height="300"
+              loading="lazy"
+            />
+            <div class="absolute inset-0 bg-[var(--color-dark)]/0 group-hover:bg-[var(--color-dark)]/20 transition-colors"></div>
+          </div>
+
+          <div class="break-inside-avoid mb-3 rounded-[var(--radius-card)] overflow-hidden cursor-pointer group relative">
+            <img
+              src="images/gallery/02.jpg"
+              alt="Grilled food platter at Hay-Es Grill (Haydee's)"
+              class="w-full object-cover transition-transform duration-300 group-hover:scale-105"
+              width="400"
+              height="300"
+              loading="lazy"
+            />
+            <div class="absolute inset-0 bg-[var(--color-dark)]/0 group-hover:bg-[var(--color-dark)]/20 transition-colors"></div>
+          </div>
+
+          <div class="break-inside-avoid mb-3 rounded-[var(--radius-card)] overflow-hidden cursor-pointer group relative">
+            <img
+              src="images/gallery/03.jpg"
+              alt="Cocktails and drinks at Hay-Es Grill (Haydee's)"
+              class="w-full object-cover transition-transform duration-300 group-hover:scale-105"
+              width="400"
+              height="300"
+              loading="lazy"
+            />
+            <div class="absolute inset-0 bg-[var(--color-dark)]/0 group-hover:bg-[var(--color-dark)]/20 transition-colors"></div>
+          </div>
+
+          <div class="break-inside-avoid mb-3 rounded-[var(--radius-card)] overflow-hidden cursor-pointer group relative">
+            <img
+              src="images/gallery/04.jpg"
+              alt="Bar interior at Hay-Es Grill (Haydee's)"
+              class="w-full object-cover transition-transform duration-300 group-hover:scale-105"
+              width="400"
+              height="300"
+              loading="lazy"
+            />
+            <div class="absolute inset-0 bg-[var(--color-dark)]/0 group-hover:bg-[var(--color-dark)]/20 transition-colors"></div>
+          </div>
+
+          <div class="break-inside-avoid mb-3 rounded-[var(--radius-card)] overflow-hidden cursor-pointer group relative">
+            <img
+              src="images/gallery/05.jpg"
+              alt="Bar counter at Hay-Es Grill (Haydee's)"
+              class="w-full object-cover transition-transform duration-300 group-hover:scale-105"
+              width="400"
+              height="300"
+              loading="lazy"
+            />
+            <div class="absolute inset-0 bg-[var(--color-dark)]/0 group-hover:bg-[var(--color-dark)]/20 transition-colors"></div>
+          </div>
+
+          <div class="break-inside-avoid mb-3 rounded-[var(--radius-card)] overflow-hidden cursor-pointer group relative">
+            <img
+              src="images/gallery/06.jpg"
+              alt="Restaurant atmosphere at Hay-Es Grill (Haydee's)"
+              class="w-full object-cover transition-transform duration-300 group-hover:scale-105"
+              width="400"
+              height="300"
+              loading="lazy"
+            />
+            <div class="absolute inset-0 bg-[var(--color-dark)]/0 group-hover:bg-[var(--color-dark)]/20 transition-colors"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="bg-[var(--color-dark)] py-16 md:py-24 px-4">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-white text-center mb-12">
+          <h2 class="font-heading text-3xl md:text-4xl font-bold mb-4">
+            What Customers Say About Hay-Es Grill (Haydee's)
+          </h2>
+          <p class="font-body text-lg text-white/70">
+            4.2 rating based on 170 Google reviews
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="bg-white/10 backdrop-blur-sm rounded-[var(--radius-card)] p-6 text-white">
+            <div class="text-[var(--color-accent)] text-lg mb-3">★★★★★</div>
+            <blockquote class="font-body italic text-white/80 mt-3 leading-relaxed">
+              The kare-kare here is amazing! Authentic Filipino taste that reminds me of home. The staff is so friendly and the service is spectacular.
+            </blockquote>
+            <cite class="font-body font-semibold text-white mt-4 block not-italic">— Frederick M.</cite>
+          </div>
+
+          <div class="bg-white/10 backdrop-blur-sm rounded-[var(--radius-card)] p-6 text-white">
+            <div class="text-[var(--color-accent)] text-lg mb-3">★★★★★</div>
+            <blockquote class="font-body italic text-white/80 mt-3 leading-relaxed">
+              Great place for family dining. The steaks are cooked perfectly and the atmosphere is cool and relaxing. Highly recommend for anyone in San Jose del Monte.
+            </blockquote>
+            <cite class="font-body font-semibold text-white mt-4 block not-italic">— Ashanti M.</cite>
+          </div>
+
+          <div class="bg-white/10 backdrop-blur-sm rounded-[var(--radius-card)] p-6 text-white">
+            <div class="text-[var(--color-accent)] text-lg mb-3">★★★★★</div>
+            <blockquote class="font-body italic text-white/80 mt-3 leading-relaxed">
+              Love the grilled fish here! Fresh and flavorful. The staff stays positive and makes every visit enjoyable. Will definitely come back.
+            </blockquote>
+            <cite class="font-body font-semibold text-white mt-4 block not-italic">— Jaryll D.</cite>
+          </div>
+        </div>
+
+        <div class="text-center mt-8">
+          <a href="https://www.google.com/maps/place/Hay-Es+Grill+(Haydee's)" target="_blank" rel="noopener" class="border border-white text-white px-6 py-3 rounded-[var(--radius-btn)] hover:bg-white hover:text-[var(--color-dark)] transition-colors">
+            Read More Reviews on Google Maps
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-[var(--color-light)] py-16 md:py-24 px-4">
+      <div class="max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+          <div class="space-y-6">
+            <h2 class="font-heading text-3xl md:text-4xl font-bold text-[var(--color-dark)]">
+              Visit Hay-Es Grill (Haydee's)
+            </h2>
+
+            <div class="flex items-center gap-3">
+              <svg class="w-5 h-5 text-[var(--color-primary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+              </svg>
+              <address class="font-body text-[var(--color-dark)] not-italic">
+                National Road, Gaya-Gaya, San Jose del Monte City, Bulacan 3023
+              </address>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <svg class="w-5 h-5 text-[var(--color-primary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+              </svg>
+              <a href="tel:+639618377179" class="font-body text-[var(--color-dark)] hover:text-[var(--color-primary)] transition-colors">
+                +63 961 837 7179
+              </a>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <svg class="w-5 h-5 text-[var(--color-primary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+              <span class="font-body text-[var(--color-muted)]">Hours: [FILL IN]</span>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <svg class="w-5 h-5 text-[var(--color-primary)]" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+              <a href="https://www.facebook.com/HayEsGrill/" target="_blank" rel="noopener" class="font-body text-[var(--color-dark)] hover:text-[var(--color-primary)] transition-colors">
+                @HayEsGrill
+              </a>
+            </div>
+
+            <a href="https://maps.google.com/?q=National+Road+Gaya-Gaya+San+Jose+del+Monte+City+Bulacan" rel="noopener" target="_blank" class="bg-[var(--color-primary)] text-white px-6 py-3 rounded-[var(--radius-btn)] font-semibold hover:bg-[var(--color-secondary)] transition-colors w-full text-center mt-6 inline-block">
+              Get Directions
+            </a>
+          </div>
+
+          <div class="rounded-[var(--radius-card)] overflow-hidden shadow-[var(--shadow-card)] w-full h-80 lg:h-full">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3864.123456789!2d121.0475353!3d14.7972181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397afbabecf6981:0x26111e748302c947!2sHay-Es+Grill+(Haydee's)!5e0!3m2!1sen!2sph!4v1716739200000!5m2!1sen!2sph"
+              width="100%"
+              height="100%"
+              style="border:0;"
+              allowfullscreen
+              loading="lazy"
+              title="Hay-Es Grill (Haydee's) location map">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-[var(--color-dark)] text-white py-16 px-4">
+    <div class="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
+      <div class="col-span-2 md:col-span-1">
+        <h3 class="font-heading font-semibold text-white mb-4">Hay-Es Grill (Haydee's)</h3>
+        <p class="font-body text-sm text-white/60 mb-4">
+          Authentic Filipino cuisine in San Jose del Monte, Bulacan
+        </p>
+        <div class="flex gap-4 mt-4">
+          <a href="https://www.facebook.com/HayEsGrill/" target="_blank" rel="noopener" class="w-9 h-9 rounded-full bg-white/10 hover:bg-[var(--color-primary)] flex items-center justify-center transition-colors">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="font-heading font-semibold text-white mb-4">Quick Links</h3>
+        <a href="#about" class="font-body text-sm text-white/60 hover:text-white transition-colors block mb-2">About</a>
+        <a href="#menu" class="font-body text-sm text-white/60 hover:text-white transition-colors block mb-2">Menu</a>
+        <a href="#gallery" class="font-body text-sm text-white/60 hover:text-white transition-colors block mb-2">Gallery</a>
+        <a href="#reviews" class="font-body text-sm text-white/60 hover:text-white transition-colors block mb-2">Reviews</a>
+        <a href="#contact" class="font-body text-sm text-white/60 hover:text-white transition-colors block mb-2">Contact</a>
+      </div>
+
+      <div>
+        <h3 class="font-heading font-semibold text-white mb-4">Hours</h3>
+        <p class="font-body text-sm text-white/60">Monday - Friday</p>
+        <p class="font-body text-sm text-white mb-2">[FILL IN]</p>
+        <p class="font-body text-sm text-white/60">Saturday - Sunday</p>
+        <p class="font-body text-sm text-white mb-2">[FILL IN]</p>
+      </div>
+
+      <div>
+        <h3 class="font-heading font-semibold text-white mb-4">Contact</h3>
+        <p class="font-body text-sm text-white/60 mb-2">
+          National Road, Gaya-Gaya<br/>
+          San Jose del Monte City, Bulacan
+        </p>
+        <a href="tel:+639618377179" class="font-body text-sm text-white/60 hover:text-white transition-colors block">
+          +63 961 837 7179
+        </a>
+      </div>
+    </div>
+
+    <div class="border-t border-white/10 mt-12 pt-8 text-center">
+      <p class="font-body text-sm text-white/40">
+        © 2026 Hay-Es Grill (Haydee's). All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // Preview banner close
+    const closeBannerBtn = document.getElementById('close-banner');
+    const previewBanner = document.getElementById('preview-banner');
+    const mainNav = document.getElementById('main-nav');
+
+    if (closeBannerBtn) {
+      closeBannerBtn.addEventListener('click', () => {
+        previewBanner.style.display = 'none';
+        mainNav.style.top = '0';
+      });
+    }
+
+    // Smooth scroll for nav anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          const navHeight = mainNav.offsetHeight;
+          const bannerHeight = previewBanner.offsetHeight;
+          const offset = navHeight + (previewBanner.style.display !== 'none' ? bannerHeight : 0);
+          const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
+          window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+  </script>
+
+  <!-- LocalBusiness JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Hay-Es Grill (Haydee's)",
+    "description": "Authentic Filipino restaurant serving kare-kare, steaks, and grilled dishes in San Jose del Monte, Bulacan",
+    "url": "https://hayesgrillhaydees.vikaph.com",
+    "telephone": "+63 961 837 7179",
+    "priceRange": "$$",
+    "servesCuisine": "Filipino",
+    "image": [
+      "https://hayesgrillhaydees.vikaph.com/images/hero.jpg"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "National Road, Gaya-Gaya",
+      "addressLocality": "San Jose del Monte City",
+      "addressRegion": "Bulacan",
+      "postalCode": "3023",
+      "addressCountry": "PH"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 14.7972181,
+      "longitude": 121.0475353
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.2",
+      "reviewCount": "170",
+      "bestRating": "5"
+    },
+    "sameAs": [
+      "https://www.facebook.com/HayEsGrill/",
+      "https://www.google.com/maps/place/Hay-Es+Grill+(Haydee's)"
+    ]
+  }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+TODO — Hay-Es Grill (Haydee's) Landing Page
+Generated: 2026-05-26
+========================================
+
+CRITICAL (blocks launch)
+------------------------
+[ ] Fill in hours of operation in Contact section (line ~263)
+[ ] Fill in hours in Footer section (lines ~336-341)
+[ ] Fill in menu prices in Menu section (lines ~180, 187, 194, 201, 208, 215)
+
+CONTENT (needs real copy or data)
+----------------------------------
+[ ] Hours of operation: Not found from Google Maps — fill in opening hours
+[ ] Menu prices: No price data found — add prices to all menu items
+
+IMAGES (files to source and drop into images/)
+-----------------------------------------------
+[ ] images/hero.jpg — Downloaded from Unsplash (restaurant dining)
+[ ] images/about.jpg — Downloaded from Unsplash (restaurant interior)
+[ ] images/gallery/01.jpg through 06.jpg — Downloaded from Unsplash (food and atmosphere)
+
+SEO (complete before going live)
+---------------------------------
+[ ] Confirm og:locale matches target market (currently en_PH)
+[ ] Submit sitemap.xml to Google Search Console after deploy
+[ ] Validate JSON-LD at https://search.google.com/test/rich-results
+
+ALL DONE ✓ (no action needed)
+------------------------------
+[ ] Business name: Hay-Es Grill (Haydee's)
+[ ] Category: Filipino Restaurant
+[ ] Address: National Road, Gaya-Gaya, San Jose del Monte City, Bulacan
+[ ] Phone: +63 961 837 7179
+[ ] Rating: 4.2/5 (170 reviews)
+[ ] Hero section: Complete with image and text
+[ ] About section: Complete with description and stats
+[ ] Menu section: Complete with menu items (prices pending)
+[ ] Gallery section: Complete with 6 images
+[ ] Reviews section: Complete with 3 reviews
+[ ] Contact section: Complete with address, phone, and map embed
+[ ] Footer: Complete with links and contact info
+[ ] SEO meta tags: Complete
+[ ] JSON-LD structured data: Complete
+[ ] Preview banner: Included
+[ ] Mobile responsive: Complete
+[ ] Tailwind CSS: Configured and working
